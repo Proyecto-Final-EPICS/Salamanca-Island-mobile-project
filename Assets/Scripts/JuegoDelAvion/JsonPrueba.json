@@ -1,0 +1,42 @@
+{
+   "pregunta":
+   {
+      "id_pregunta":1,
+      "pregunta":"¿Cuál es el secreto de la vida?",
+      "imagen":null,
+      "audio":null,
+      "video":null,
+      "retroalimentacion":"Retroalimentacion1",
+      "tipo":"multiple",
+      "examen":false,
+      "orden":1,
+      "id_task":1
+      },
+      "respuestas":
+      [
+         {
+            "id_respuesta":1,
+            "contenido":"",
+            "correcta":false,
+            "id_pregunta":1
+         },
+         {
+            "id_respuesta":2,
+            "contenido":"La amista",
+            "correcta":false,
+            "id_pregunta":1
+         },
+         {
+            "id_respuesta":3,
+            "contenido":"El money",
+            "correcta":false,
+            "id_pregunta":1
+         },
+         {
+            "id_respuesta":4,
+            "contenido":"La tuya por si acaso",
+            "correcta":true,
+            "id_pregunta":1
+         }
+      ]
+}
