@@ -13,7 +13,7 @@ public class JsonLector : MonoBehaviour
         //Lee el archivo Json
         string jsonString = File.ReadAllText(jsonPath);
         data = JsonUtility.FromJson<QuizData>(jsonString);
-        Debug.Log(data.clientP[0].name); //Test
+        Debug.Log(data.clientP[0].preg); //Test
     }
 }
 
@@ -26,7 +26,7 @@ public class QuizPregunta
     public int orden;
     public bool examen;
     public int idtask;
-    public Quiz(string _preg, string _tipoP, int _idP, int _orden, bool _examen, int _idtask)
+    public QuizPregunta(string _preg, string _tipoP, int _idP, int _orden, bool _examen, int _idtask)
     {
         preg = _preg;
         tipoP = _tipoP;
